@@ -2,7 +2,7 @@
 
 ## ROTAS
 
-##### INSERIR NOVA TAREFA
+##### Inserir nova tarefa
 POST: /tarefas
 Body: { 
         "name": "arrumar a casa", 
@@ -11,17 +11,17 @@ Body: {
         "responsavel": "bad lele"
       }
 
-##### LER TODAS AS TAREFAS
+##### Ler todas as tarefas
 GET: /tarefas 
 
-##### LER NUMERO DE TAREFAS POR PESSOA
+##### Ler número de tarefas por pessoa
 GET: /tarefas/count
 
-##### LER TAREFAS DE UM DETERMINADO MORADOR
+##### Ler tarefas de um determinado morador
 GET: /tarefas/:person
 
-##### ATUALIZAR UMA TAREFA APÓS REALIZA-LA
+##### Atualizar uma tarefa após realizá-la
 PUT: /tarefas/done/:id
 
-##### DELETAR UMA TAREFA
+##### Deletar uma tarefa
 DELETE: /tarefas/:id
