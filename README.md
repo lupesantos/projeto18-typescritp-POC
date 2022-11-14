@@ -24,4 +24,4 @@ GET: /tarefas/:person
 PUT: /tarefas/done/:id
 
 ##### DELETAR UMA TAREFA
-DELETE: /tarefas/:id  ##### DELETAR UMA TAREFA
+DELETE: /tarefas/:id
