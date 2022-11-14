@@ -11,17 +11,17 @@ Body: {
         "responsavel": "bad lele"
       }
 
-### LER TODAS AS TAREFAS
+##### LER TODAS AS TAREFAS
 GET: /tarefas 
 
-### LER NUMERO DE TAREFAS POR PESSOA
+##### LER NUMERO DE TAREFAS POR PESSOA
 GET: /tarefas/count
 
-### LER TAREFAS DE UM DETERMINADO MORADOR
+##### LER TAREFAS DE UM DETERMINADO MORADOR
 GET: /tarefas/:person
 
-### ATUALIZAR UMA TAREFA APÓS REALIZA-LA
+##### ATUALIZAR UMA TAREFA APÓS REALIZA-LA
 PUT: /tarefas/done/:id
 
-### DELETAR UMA TAREFA
-DELETE: /tarefas/:id
+##### DELETAR UMA TAREFA
+DELETE: /tarefas/:id  ##### DELETAR UMA TAREFA
